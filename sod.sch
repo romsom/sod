@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sod-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -227,17 +226,6 @@ Wire Wire Line
 	6150 1600 6750 1600
 Wire Wire Line
 	6750 1600 6750 1300
-$Comp
-L +4.5v:+4.5V #PWR?
-U 1 1 5C50688B
-P 6850 1300
-F 0 "#PWR?" H 6850 1150 50  0001 C CNN
-F 1 "+4.5V" H 6865 1473 50  0000 C CNN
-F 2 "" H 6850 1300 50  0001 C CNN
-F 3 "" H 6850 1300 50  0001 C CNN
-	1    6850 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 1300 6750 1300
 Connection ~ 6750 1300
@@ -308,47 +296,10 @@ Wire Wire Line
 Connection ~ 7300 2900
 Wire Wire Line
 	7300 2900 7200 2900
-$Comp
-L +4.5v:+4.5V #PWR?
-U 1 1 5C507C8A
-P 7300 2500
-F 0 "#PWR?" H 7300 2350 50  0001 C CNN
-F 1 "+4.5V" H 7315 2673 50  0000 C CNN
-F 2 "" H 7300 2500 50  0001 C CNN
-F 3 "" H 7300 2500 50  0001 C CNN
-	1    7300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +4.5v:+4.5V #PWR?
-U 1 1 5C507CBB
-P 8400 2500
-F 0 "#PWR?" H 8400 2350 50  0001 C CNN
-F 1 "+4.5V" H 8415 2673 50  0000 C CNN
-F 2 "" H 8400 2500 50  0001 C CNN
-F 3 "" H 8400 2500 50  0001 C CNN
-	1    8400 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8400 2500 8400 2800
 Wire Wire Line
 	8400 2800 8450 2800
-$Comp
-L +4.5v:+4.5V #PWR?
-U 1 1 5C507EE9
-P 7400 3200
-F 0 "#PWR?" H 7400 3050 50  0001 C CNN
-F 1 "+4.5V" H 7415 3373 50  0000 C CNN
-F 2 "" H 7400 3200 50  0001 C CNN
-F 3 "" H 7400 3200 50  0001 C CNN
-	1    7400 3200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7500 3100 7400 3100
-Wire Wire Line
-	7400 3100 7400 3200
 $Comp
 L Device:R_POT RV?
 U 1 1 5C509557
@@ -403,17 +354,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 6000 3450
 Connection ~ 6000 3450
-$Comp
-L +4.5v:+4.5V #PWR?
-U 1 1 5C50E2CA
-P 6000 2500
-F 0 "#PWR?" H 6000 2350 50  0001 C CNN
-F 1 "+4.5V" H 6015 2673 50  0000 C CNN
-F 2 "" H 6000 2500 50  0001 C CNN
-F 3 "" H 6000 2500 50  0001 C CNN
-	1    6000 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 2500 6000 2800
 Wire Wire Line
@@ -445,17 +385,6 @@ $EndComp
 Wire Wire Line
 	4500 3650 4250 3650
 Connection ~ 4500 3650
-$Comp
-L +4.5v:+4.5V #PWR?
-U 1 1 5C51284A
-P 4100 3900
-F 0 "#PWR?" H 4100 3750 50  0001 C CNN
-F 1 "+4.5V" H 4115 4073 50  0000 C CNN
-F 2 "" H 4100 3900 50  0001 C CNN
-F 3 "" H 4100 3900 50  0001 C CNN
-	1    4100 3900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4100 3800 4100 3900
 Wire Wire Line
@@ -878,4 +807,22 @@ Wire Wire Line
 	1650 650  1950 650 
 Wire Wire Line
 	1950 950  1950 1350
+Text Label 6850 1300 0    50   ~ 0
+VGND
+Text Label 4100 3900 0    50   ~ 0
+VGND
+Text Label 6000 2500 0    50   ~ 0
+VGND
+Text Label 7300 2500 0    50   ~ 0
+VGND
+Text Label 7300 3100 0    50   ~ 0
+VGND
+Wire Wire Line
+	7300 3100 7500 3100
+Text Label 8400 2500 0    50   ~ 0
+VGND
+Text Label 4450 3850 0    50   ~ 0
+VGND
+Wire Wire Line
+	4700 3850 4450 3850
 $EndSCHEMATC

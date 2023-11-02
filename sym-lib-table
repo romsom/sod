@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sod")(type "Legacy")(uri "/home/etxzat/Repo/romsom/sod/sod.lib")(options "")(descr ""))
+  (lib (name "sod-rescue")(type "KiCad")(uri "${KIPRJMOD}/sod-rescue.kicad_sym")(options "")(descr ""))
+)
